@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCR Naija Eats | Nigerian Food in Manchester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🇳🇬 MCR Naija Eats</h1>
+    <p>Curated Nigerian food spots in Manchester. No fluff, just flavour.</p>
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search vendors or dishes...">
+      <select id="location-filter">
+        <option value="">All Locations</option>
+        <option value="Longsight">Longsight</option>
+        <option value="City Centre">City Centre</option>
+        <option value="Cheetham Hill">Cheetham Hill</option>
+        <option value="Moss Side">Moss Side</option>
+        <option value="Moston">Moston</option>
+      </select>
+      <select id="dish-filter">
+        <option value="">All Dishes</option>
+        <option value="Jollof Rice">Jollof Rice</option>
+        <option value="Suya">Suya</option>
+        <option value="Egusi Soup">Egusi Soup</option>
+        <option value="Pepper Soup">Pepper Soup</option>
+        <option value="Small Chops">Small Chops</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div id="vendor-grid" class="grid"></div>
+    <p id="no-results" style="display:none; text-align:center; padding:2rem;">No vendors match your filters. <a href="mailto:hello@mcrnaijaeats.co.uk?subject=New Vendor Suggestion">Suggest one?</a></p>
+  </main>
+
+  <footer>
+    <a href="YOUR_GOOGLE_FORM_LINK" target="_blank" class="cta-btn">+ Add a Vendor</a>
+    <p>Updated weekly. Built with ❤️ for the MCR Naija community.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
